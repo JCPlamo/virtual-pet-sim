@@ -5,39 +5,47 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #71A2FF;
 }
 
 .container {
     align-items: center;
     justify-content: center;
-    border: 5px solid black;
-    border-radius: 50px;
-    margin: 50px;
-    width: 700px;
     overflow: hidden;
+    width: 100%;
+}
+
+.header {
+    background-color: #C6FFFA;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header > img {
+    width: 30%;
 }
 
 .animal-display {
     display: flex;
     flex-direction: column;
-    border-bottom: 7px solid black;
     height: 500px;
     align-items: center;
     justify-content: center;
-    background-color: blue;
 }
 
 .animal-display > img {
-    width: 25%;
+    
 }
 
 .button-container {
-    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex: wrap;
-    gap: 10px;
+    gap: 100px;
+    background: linear-gradient(180deg, #71A2FF 50%, #F1E28E 50%);
 }
 
 .button-container > button {
@@ -52,4 +60,14 @@ body {
 
 .button-container > button:hover {
     background-color: #41375c;
+}
+
+.sand-container {
+    height: 180px;
+    width: 200%;
+    background-color: #F1E28E;
+}
+
+.sand-container > img {
+    width: 10%;
 }

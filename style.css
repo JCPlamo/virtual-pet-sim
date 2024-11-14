@@ -3,19 +3,28 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     align-items: center;
     justify-content: center;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin: 50px;
+    width: 700px;
+    overflow: hidden;
 }
 
 .animal-display {
     display: flex;
     flex-direction: column;
-    border: solid black;
+    border-bottom: 7px solid black;
     height: 500px;
     align-items: center;
+    justify-content: center;
+    background-color: blue;
 }
 
 .animal-display > img {
@@ -39,4 +48,8 @@ body {
     color: white;
     background-color: #65558F;
     font-size: 20px;
+}
+
+.button-container > button:hover {
+    background-color: #41375c;
 }
